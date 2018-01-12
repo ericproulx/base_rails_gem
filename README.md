@@ -1,26 +1,20 @@
 # BaseRailsGem
-Short description and motivation.
+A basic gem structure for rails with test_apps from 4.0 to 5.1
+
+Travis configured for ruby 2.2 to 2.5
 
 ## Usage
-How to use my plugin.
+It's a boilerplate.
 
-## Installation
-Add this line to your application's Gemfile:
+## Running specs
 
 ```ruby
-gem 'base_rails_gem'
+bundle exec appraisal rails-4.0 rspec
+bundle exec appraisal rails-4.1 rspec
+bundle exec appraisal rails-4.2 rspec
+bundle exec appraisal rails-5.0 rspec
+bundle exec appraisal rails-5.1 rspec
 ```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install base_rails_gem
-```
-
 ## Contributing
 Contribution directions go here.
 
