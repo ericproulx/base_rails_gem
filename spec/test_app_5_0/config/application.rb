@@ -11,7 +11,6 @@ require "active_job/railtie"
 require "sprockets/railtie"
 
 Bundler.require(*Rails.groups)
-require "test_app"
 
 module TestApp50
   class Application < Rails::Application

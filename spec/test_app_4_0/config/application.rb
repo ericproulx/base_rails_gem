@@ -8,7 +8,6 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "test_app"
 
 module TestApp40
   class Application < Rails::Application

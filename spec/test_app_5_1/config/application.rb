@@ -11,7 +11,6 @@ require "active_job/railtie"
 require "sprockets/railtie"
 
 Bundler.require(*Rails.groups)
-require "base_rails_gem"
 
 module TestApp51
   class Application < Rails::Application
