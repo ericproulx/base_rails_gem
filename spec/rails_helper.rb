@@ -2,7 +2,9 @@
 
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
-if ENV['BUNDLE_GEMFILE'] =~ /5.1/
+if ENV['BUNDLE_GEMFILE'] =~ /5.2/
+  require File.expand_path('../test_app_5_2/config/environment', __FILE__)
+elsif ENV['BUNDLE_GEMFILE'] =~ /5.1/
   require File.expand_path('../test_app_5_1/config/environment', __FILE__)
 elsif ENV['BUNDLE_GEMFILE'] =~ /5.0/
   require File.expand_path('../test_app_5_0/config/environment', __FILE__)
